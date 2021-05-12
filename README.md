@@ -1,4 +1,4 @@
- #Indoor location using Soft Information fusion
+#Indoor location using Soft Information fusion
  
  This algorithm was developed with the aim of producing a reliable indoor location method for the Paris fire brigade. 
  It uses soft information (from sensors with high uncertainties) compiled in a .JSON file to return the most probable positions of the different agents in the field.
@@ -26,4 +26,4 @@ pink = real data
 red  = measured data
 blue = deduced from SI data 
  
-![ Alt text](soft_information\data\test_with_visual.gif) / ! [](soft_information\data\test_with_visual.gif)
+![Alt text](soft_information\data\test_with_visual.gif) / ! [](soft_information\data\test_with_visual.gif)
