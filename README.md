@@ -22,8 +22,8 @@ Measures are simulated from their position, speed and heading. Finally, new coor
 Differences between the real and measured data and between the real and deduced data are stored in 'distRM.txt' and 'distRD.txt'.
 Following visuals can be obtained :
  
-pink = real data
-red  = measured data
-blue = deduced from SI data 
- 
 ![](test_with_visual.gif)
+
+pink = real data  
+red  = measured data  
+blue = deduced from SI data
