@@ -26,4 +26,4 @@ pink = real data
 red  = measured data
 blue = deduced from SI data 
  
-![Alt text](soft_information\data\test_with_visual.gif) / ! [](soft_information\data\test_with_visual.gif)
+![](soft_information\data\test_with_visual.gif)
