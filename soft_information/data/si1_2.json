@@ -1,0 +1,47 @@
+[
+    { 
+        "SI_type": "time",
+        "features": {
+            "measured_time":3.0001
+            
+        }
+    },
+    
+    {
+        "SI_type": "position",
+        "features": {
+            "idx": 0,
+            "measured_x": 0,
+            "measured_y": 0,
+            "std":0.0001
+        }
+    },
+    {
+        "SI_type": "cap",
+        "features": {
+            "idx": 0,
+            "measured_h": 1.57,
+            "std":0.0001
+        }
+    },
+    {
+        "SI_type": "distance",
+        "features": {
+            "idx_a":0,
+            "idx_b":1,
+            "measured_dist":1,
+            "std":0.00001
+        }
+    },
+    {
+        "SI_type": "angle",
+        "features": {
+            "idx_a":0,
+            "idx_b":1,
+            "measured_angle":0.785,
+            "std":0.000001
+        }
+    }
+    
+    
+]

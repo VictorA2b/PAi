@@ -1,0 +1,184 @@
+[
+    {
+        "SI_type": "time",
+        "features": {
+            "measured_time": 17
+        }
+    },
+    {
+        "SI_type": "position",
+        "features": {
+            "idx": 0,
+            "measured_x": 201.19,
+            "measured_y": 124.27,
+            "std": 57.142857142857146
+        }
+    },
+    {
+        "SI_type": "position",
+        "features": {
+            "idx": 1,
+            "measured_x": 496.39,
+            "measured_y": 302.91,
+            "std": 57.142857142857146
+        }
+    },
+    {
+        "SI_type": "position",
+        "features": {
+            "idx": 2,
+            "measured_x": 1050.87,
+            "measured_y": 874.16,
+            "std": 57.142857142857146
+        }
+    },
+    {
+        "SI_type": "position",
+        "features": {
+            "idx": 3,
+            "measured_x": 1751.56,
+            "measured_y": 450.91,
+            "std": 57.142857142857146
+        }
+    },
+    {
+        "SI_type": "cap",
+        "features": {
+            "idx": 0,
+            "measured_h": 2.95,
+            "std": 0.3
+        }
+    },
+    {
+        "SI_type": "cap",
+        "features": {
+            "idx": 1,
+            "measured_h": 2.89,
+            "std": 0.3
+        }
+    },
+    {
+        "SI_type": "cap",
+        "features": {
+            "idx": 2,
+            "measured_h": -0.27,
+            "std": 0.3
+        }
+    },
+    {
+        "SI_type": "cap",
+        "features": {
+            "idx": 3,
+            "measured_h": 0.51,
+            "std": 0.3
+        }
+    },
+    {
+        "SI_type": "distance",
+        "features": {
+            "idx_a": 0,
+            "idx_b": 1,
+            "measured_dist": 261.74,
+            "std": 114.28571428571429
+        }
+    },
+    {
+        "SI_type": "distance",
+        "features": {
+            "idx_a": 0,
+            "idx_b": 2,
+            "measured_dist": 1058.97,
+            "std": 114.28571428571429
+        }
+    },
+    {
+        "SI_type": "distance",
+        "features": {
+            "idx_a": 0,
+            "idx_b": 3,
+            "measured_dist": 1467.44,
+            "std": 114.28571428571429
+        }
+    },
+    {
+        "SI_type": "distance",
+        "features": {
+            "idx_a": 1,
+            "idx_b": 2,
+            "measured_dist": 723.02,
+            "std": 114.28571428571429
+        }
+    },
+    {
+        "SI_type": "distance",
+        "features": {
+            "idx_a": 1,
+            "idx_b": 3,
+            "measured_dist": 1080.64,
+            "std": 114.28571428571429
+        }
+    },
+    {
+        "SI_type": "distance",
+        "features": {
+            "idx_a": 2,
+            "idx_b": 3,
+            "measured_dist": 750.66,
+            "std": 114.28571428571429
+        }
+    },
+    {
+        "SI_type": "angle",
+        "features": {
+            "idx_a": 0,
+            "idx_b": 1,
+            "measured_angle": 1,
+            "std": 3
+        }
+    },
+    {
+        "SI_type": "angle",
+        "features": {
+            "idx_a": 0,
+            "idx_b": 2,
+            "measured_angle": 5,
+            "std": 3
+        }
+    },
+    {
+        "SI_type": "angle",
+        "features": {
+            "idx_a": 0,
+            "idx_b": 3,
+            "measured_angle": 0,
+            "std": 3
+        }
+    },
+    {
+        "SI_type": "angle",
+        "features": {
+            "idx_a": 1,
+            "idx_b": 2,
+            "measured_angle": 5,
+            "std": 3
+        }
+    },
+    {
+        "SI_type": "angle",
+        "features": {
+            "idx_a": 1,
+            "idx_b": 3,
+            "measured_angle": 9,
+            "std": 3
+        }
+    },
+    {
+        "SI_type": "angle",
+        "features": {
+            "idx_a": 2,
+            "idx_b": 3,
+            "measured_angle": -2,
+            "std": 3
+        }
+    }
+]
