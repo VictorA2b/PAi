@@ -123,7 +123,7 @@ def SI(json_simulated,position_simulated):
     """
     
     listepos=[]
-    SI_list = soft_information.parse_scenario('data_simulated.json')
+    SI_list = soft_information.parse_scenario('soft_information\data\data_simulated.json')
     positions, _ = soft_information.compute_positions(SI_list, len(position_simulated), listepos)
     listeposbis = []
     for pos in positions:
@@ -204,10 +204,11 @@ def write_in_json(data,time):
         
         
     json_object = json.dumps(liste_info, indent = 4) 
-    with open("data_true.json", "w") as outfile: 
+    with open("soft_information\data\data_true.json", "w") as outfile: 
         outfile.write(json_object)
         
-    jt.simulated_json("data_true.json",'data_simulated.json')
+    jt.simulated_json("soft_information\data\data_true.json",
+                      'soft_information\data\data_simulated.json')
                     
 
 
@@ -256,7 +257,7 @@ def suivi(time,position_agent,position_simulated,position_SI,velocity_agent,data
         
     #simulated measured datas are generated from them       
     write_in_json(data,time)
-    data_measured = jt.json2coor('data_simulated.json')
+    data_measured = jt.json2coor('soft_information\data\data_simulated.json')
     position_simulated = []
     for i in range(0,len(data_measured)):
         position_simulated.append([data_measured[i]['Agent ' + str(i+1)]['X'],data_measured[i]['Agent ' + str(i+1)]['Y']])
@@ -264,11 +265,11 @@ def suivi(time,position_agent,position_simulated,position_SI,velocity_agent,data
         
     #deduced datas are generated from the measured ones thanks to the 
     #SI fusion and are tested
-    position_SI = SI('data_simulated.json',position_simulated)
+    position_SI = SI('soft_information\data\data_simulated.json',position_simulated)
     c=1
     while aberrant(position_SI) and c<10:
         c+=1
-        position_SI = SI('data_simulated.json',position_simulated)
+        position_SI = SI('soft_information\data\data_simulated.json',position_simulated)
 
         
     #each type of coordinates is saved

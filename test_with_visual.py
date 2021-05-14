@@ -159,7 +159,7 @@ class Window(Tk):
             """
     
             listepos=[]
-            SI_list = soft_information.parse_scenario('data_simulated.json')
+            SI_list = soft_information.parse_scenario('soft_information\data\data_simulated.json')
             positions, _ = soft_information.compute_positions(SI_list, len(self.position_simulated), listepos)
             listeposbis = []
             for pos in positions:
@@ -223,7 +223,7 @@ class Window(Tk):
         
         #simulated measured datas are generated from them       
         self.write_in_json()
-        self.data_measured = jt.json2coor('data_simulated.json')
+        self.data_measured = jt.json2coor('soft_information\data\data_simulated.json')
         self.position_simulated = []
         for i in range(0,len(self.data_measured)):
             self.position_simulated.append([self.data_measured[i]['Agent ' + str(i+1)]['X'],self.data_measured[i]['Agent ' + str(i+1)]['Y']])
@@ -231,11 +231,11 @@ class Window(Tk):
         
         #deduced datas are generated from the measured ones thanks to the 
         #SI fusion and are tested
-        self.position_SI = self.SI('data_simulated.json')
+        self.position_SI = self.SI('soft_information\data\data_simulated.json')
         c=1
         while self.aberrant() and c<10:
             c+=1
-            self.position_SI = self.SI('data_simulated.json')
+            self.position_SI = self.SI('soft_information\data\data_simulated.json')
 
         
         #picture is refreshed 
@@ -338,10 +338,11 @@ class Window(Tk):
         
         
         json_object = json.dumps(liste_info, indent = 4) 
-        with open("data_true.json", "w") as outfile: 
+        with open("soft_information\data\data_true.json", "w") as outfile: 
             outfile.write(json_object)
         
-        jt.simulated_json("data_true.json",'data_simulated.json')
+        jt.simulated_json("soft_information\data\data_true.json",
+                          'soft_information\data\data_simulated.json')
                     
         
         

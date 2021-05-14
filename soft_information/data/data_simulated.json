@@ -2,15 +2,15 @@
     {
         "SI_type": "time",
         "features": {
-            "measured_time": 17
+            "measured_time": 4
         }
     },
     {
         "SI_type": "position",
         "features": {
             "idx": 0,
-            "measured_x": 201.19,
-            "measured_y": 124.27,
+            "measured_x": 351.6,
+            "measured_y": 218.21,
             "std": 57.142857142857146
         }
     },
@@ -18,8 +18,8 @@
         "SI_type": "position",
         "features": {
             "idx": 1,
-            "measured_x": 496.39,
-            "measured_y": 302.91,
+            "measured_x": 534.74,
+            "measured_y": 186.68,
             "std": 57.142857142857146
         }
     },
@@ -27,8 +27,8 @@
         "SI_type": "position",
         "features": {
             "idx": 2,
-            "measured_x": 1050.87,
-            "measured_y": 874.16,
+            "measured_x": 1216.12,
+            "measured_y": 702.88,
             "std": 57.142857142857146
         }
     },
@@ -36,8 +36,8 @@
         "SI_type": "position",
         "features": {
             "idx": 3,
-            "measured_x": 1751.56,
-            "measured_y": 450.91,
+            "measured_x": 1599.26,
+            "measured_y": 402.72,
             "std": 57.142857142857146
         }
     },
@@ -45,7 +45,7 @@
         "SI_type": "cap",
         "features": {
             "idx": 0,
-            "measured_h": 2.95,
+            "measured_h": 0.59,
             "std": 0.3
         }
     },
@@ -53,7 +53,7 @@
         "SI_type": "cap",
         "features": {
             "idx": 1,
-            "measured_h": 2.89,
+            "measured_h": 5.89,
             "std": 0.3
         }
     },
@@ -61,7 +61,7 @@
         "SI_type": "cap",
         "features": {
             "idx": 2,
-            "measured_h": -0.27,
+            "measured_h": -0.19,
             "std": 0.3
         }
     },
@@ -69,7 +69,7 @@
         "SI_type": "cap",
         "features": {
             "idx": 3,
-            "measured_h": 0.51,
+            "measured_h": 4.03,
             "std": 0.3
         }
     },
@@ -78,7 +78,7 @@
         "features": {
             "idx_a": 0,
             "idx_b": 1,
-            "measured_dist": 261.74,
+            "measured_dist": 342.95,
             "std": 114.28571428571429
         }
     },
@@ -87,7 +87,7 @@
         "features": {
             "idx_a": 0,
             "idx_b": 2,
-            "measured_dist": 1058.97,
+            "measured_dist": 1018.52,
             "std": 114.28571428571429
         }
     },
@@ -96,7 +96,7 @@
         "features": {
             "idx_a": 0,
             "idx_b": 3,
-            "measured_dist": 1467.44,
+            "measured_dist": 1695.1,
             "std": 114.28571428571429
         }
     },
@@ -105,7 +105,7 @@
         "features": {
             "idx_a": 1,
             "idx_b": 2,
-            "measured_dist": 723.02,
+            "measured_dist": 1107.05,
             "std": 114.28571428571429
         }
     },
@@ -114,7 +114,7 @@
         "features": {
             "idx_a": 1,
             "idx_b": 3,
-            "measured_dist": 1080.64,
+            "measured_dist": 1392.88,
             "std": 114.28571428571429
         }
     },
@@ -123,7 +123,7 @@
         "features": {
             "idx_a": 2,
             "idx_b": 3,
-            "measured_dist": 750.66,
+            "measured_dist": 619.15,
             "std": 114.28571428571429
         }
     },
@@ -132,7 +132,7 @@
         "features": {
             "idx_a": 0,
             "idx_b": 1,
-            "measured_angle": 1,
+            "measured_angle": 3,
             "std": 3
         }
     },
@@ -141,7 +141,7 @@
         "features": {
             "idx_a": 0,
             "idx_b": 2,
-            "measured_angle": 5,
+            "measured_angle": -1,
             "std": 3
         }
     },
@@ -159,7 +159,7 @@
         "features": {
             "idx_a": 1,
             "idx_b": 2,
-            "measured_angle": 5,
+            "measured_angle": 0,
             "std": 3
         }
     },
@@ -168,7 +168,7 @@
         "features": {
             "idx_a": 1,
             "idx_b": 3,
-            "measured_angle": 9,
+            "measured_angle": 5,
             "std": 3
         }
     },
@@ -177,7 +177,7 @@
         "features": {
             "idx_a": 2,
             "idx_b": 3,
-            "measured_angle": -2,
+            "measured_angle": 4,
             "std": 3
         }
     }
